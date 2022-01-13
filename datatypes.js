@@ -212,29 +212,29 @@ console.log("El valor de " + x3 + " en boolean es " + booleano);
 
 
 //Ejercicio 1: Create a Calculator
-var cumple = parseInt(prompt("Cual es tu año de nacimiento?"));
+var cumple = parseInt(prompt("¿Cuál es tu año de nacimiento?"));
 
-var cumpleMes = parseInt(prompt("Cual es tu mes de nacimiento? (Del 1 al 12)"));
+var cumpleMes = parseInt(prompt("Cuál es tu mes de nacimiento? (Del 1 al 12)"));
 
-var futuro = parseInt(prompt("Cual es tu año en el que quieres conocer tu edad?"));
+var futuro = parseInt(prompt("¿En qué año te gustaría conocer qué edad tendrías?"));
 
-var futuroMes = parseInt(prompt("Cual es tu mes del año en el que quieres conocer tu edad?"));
+var futuroMes = parseInt(prompt("¿En qué mes de ese año? (Del 1 al 12)"));
 
 var resultado = futuro-cumple;
 
 if(futuroMes<=cumpleMes){
-console.log("Tu edad en el año " + futuro + " sera de " + (resultado - 1));
+console.log("Tu edad en el año " + futuro + " será de " + (resultado - 1));
 }
 else{
-    console.log("Tu edad en el año " + futuro + " sera de " + resultado) ;
+    console.log("Tu edad en el año " + futuro + " será de " + resultado) ;
 }
 
 
 //Create an information card
-var persona = {name : prompt("Cual es tu nombre?"), locacion : prompt("Cual es tu ubicacion?") , hobby : prompt("Cual es tu hobby?")};
+var persona = {name : prompt("¿Cuál es tu nombre?"), locacion : prompt("¿Cuál es tu ubicación?") , hobby : prompt("¿Cuál es tu hobby?")};
 
 // var name = prompt("Cual es tu nombre?");
 // var locacion = prompt("Cual es tu ubicacion?");
 // var hobby = prompt("Cual es tu hobby?");
 
-console.log("Hi my name is " + persona.name + ".I live in " + persona.locacion + " and enjoy " + persona.hobby +".");
+console.log("Hi, my name is " + persona.name + ". I live in " + persona.locacion + " and enjoy " + persona.hobby +".");
